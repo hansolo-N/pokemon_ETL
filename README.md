@@ -47,21 +47,21 @@ type 2 - pokemon's second type if it has one. could be empty/null. (string)
 
 ## Berries dataset information
 
-id	- The identifier for this resource. (integer)
+> id	- The identifier for this resource. (integer)
 
-name	- The name for this resource. (string)
+> name	- The name for this resource. (string)
 
-growth_time	- Time it takes the tree to grow one stage, in hours. Berry trees go through four of these growth stages before they can be picked. (integer)
+> growth_time	- Time it takes the tree to grow one stage, in hours. Berry trees go through four of these growth stages before they can be picked. (integer)
 
-max_harvest - The maximum number of these berries that can grow on one tree in Generation IV. (integer)
+> max_harvest - The maximum number of these berries that can grow on one tree in Generation IV. (integer)
 
-natural_gift_power - The power of the move "Natural Gift" when used with this Berry. (integer)
+> natural_gift_power - The power of the move "Natural Gift" when used with this Berry. (integer)
 
-size - The size of this Berry, in millimeters. (integer)
+> size - The size of this Berry, in millimeters. (integer)
 
-smoothness - The smoothness of this Berry, used in making Pokéblocks or Poffins. (integer)
+> smoothness - The smoothness of this Berry, used in making Pokéblocks or Poffins. (integer)
 
-soil_dryness - The speed at which this Berry dries out the soil as it grows. A higher rate means the soil dries more quickly. (integer)
+> soil_dryness - The speed at which this Berry dries out the soil as it grows. A higher rate means the soil dries more quickly. (integer)
 
 above information references pokemon api: https://pokeapi.co/docs/v2#berries-section
 
